@@ -5,7 +5,7 @@ Simple keystroke dynamic software written in Python
 
 Clone, ensure you have the imported modules available (PyHook, pythoncom, matplotlib).
 
-Run the script, note that it will save all of your data where you specify it upon startup. It is stored as a json list. This can be appended to. Enter input which will write to the .csv file, when you are done, hit ESC. This will end the input procedure.
+Run the script, note that it will save all of your data where you specify it upon startup. Events are stored as a JSON list. This can be appended to. Enter a 'username' (filename) which will write to the .csv file, when you are done, hit ESC. This will end the input procedure.
 
 From there you can graph your event, giving the 'username' that you chose during the record procedure. 
 
