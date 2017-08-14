@@ -58,6 +58,12 @@ def getUserFileWriteSession():
     print("File Location: ", os.getcwd())
     username = input("Enter your username: ")
     userFileName = (username + ".txt")
+    
+    # If directory DNE.
+    if not os.path.isdir((os.path.join("./", "accounts"))):
+        # Create it.
+        os.makedirs("accounts")
+
     if os.path.exists(os.path.join("accounts", userFileName)):
         userFile = (os.path.join("accounts", userFileName))
     else:
