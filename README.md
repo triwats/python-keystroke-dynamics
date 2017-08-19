@@ -15,3 +15,14 @@ It is possible to generate 2 time based metric from events:
 * Time between the keyup events
 
 Sadly, due to the hook functionality, PyHook only runs on Windows.
+
+## Dependancies:
+* PyHook
+* pythoncom
+* matplotlib
+
+## Limitations:
+
+Sadly, due to the hook functionality, PyHook only runs on Microsoft Windows.
+
+
